@@ -1,0 +1,43 @@
+body {
+    transform: scale(0.8);
+    transform-origin: top center;
+    margin-bottom: 0;
+}
+
+div {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 300%;
+    -ms-user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+#group {
+    width: 40vw;
+    visibility: hidden;
+}
+
+#button {
+    font-size: 200%;
+    line-height: 0;
+}
+
+.grid {
+    grid-template-columns: 1fr;
+}
+
+article {
+    width: 40vw;
+    margin-bottom: 0;
+}
+
+article img {
+    margin-right: 18px;
+    height: 40px;
+}
